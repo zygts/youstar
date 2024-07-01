@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@barba/core": "^2.10.0",
-    "gsap": "^3.12.5"
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.5",
+    "splitting": "^1.1.0"
   }
 }
