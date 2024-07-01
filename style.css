@@ -15,6 +15,11 @@ body {
   color: black;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 #preloader {
   position: fixed;
   top: 0;
@@ -26,12 +31,11 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 5s ease;
+  transition: transform 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) ease;
 }
 
 #preloader.hidden {
   transform: translateY(-100%);
-  opacity: 0;
 }
 
 #preloader img {
@@ -55,7 +59,7 @@ body {
 }
 
 .header-logo {
-  height: 10rem;
+  height: 12rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -110,7 +114,12 @@ body {
   padding-block: 1.5rem;
   height: 34rem;
   position: relative;
+  transition: all 0.4s ease-in-out; 
 }
+
+/* .stars-row:hover {
+  opacity: 0.75;
+} */
 
 .stars-row::after {
   content: ''; 
@@ -169,7 +178,7 @@ body {
   cursor: pointer;
 }
 
-.stars-img-container:hover .stars-img img {
+.stars-row:hover .stars-img img {
   transform: scale(1.1);
 }
 
