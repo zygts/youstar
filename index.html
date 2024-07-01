@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +11,99 @@
   </head>
   <body>
     <div id="app">
-      hola
+      <!-- Header -->
+      <div class="header">
+        <img src="./public/logo-corner.png" alt="" class="header-logo">
+        <ul class="header-nav">
+          <li>Stars</li>
+          <li>Servicios</li>
+          <li>Stars Works</li>
+          <li>Sobre YouStar</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+
+      <!-- Stars -->
+      <div class="stars">
+        <div class="stars-row">
+          <div class="stars-img-container">
+            <div class="stars-img">
+              <img src="./public/star1.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Inma Mariscal</span>
+            <span class="stars-job">Fotógrafa polifacética</span>
+            <span class="stars-quote">"Odio la mediocridad y la ensaladilla"</span>
+          </div>
+        </div>
+
+        <div class="stars-row stars-row--inverse">
+          <div class="stars-img-container">
+            <div class="stars-img">
+              <img src="./public/star2.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Íñigo Escrivá</span>
+            <span class="stars-job">Ex fotógrafo, Ex Youtuber, Escritor, Actor y Cuarentón en Crisis</span>
+            <span class="stars-quote exclusion-text">"Trataré de hacerme una foto decente a la mayor brevedad"</span>
+          </div>
+        </div>
+
+        <div class="stars-row">
+          <div class="stars-img-container">
+            <div class="stars-img">
+              <img src="./public/star3.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Lorena Torres</span>
+            <span class="stars-job">Especialista en alto rendimiento</span>
+            <span class="stars-quote">"Mira, esto es lo que hemos puesto en la contra del libro:"</span>
+          </div>
+        </div>
+
+        <div class="stars-row stars-row--inverse star-4">
+          <div class="stars-img-container">
+            <div class="stars-img">
+              <img src="./public/star4.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Miguel Pita</span>
+            <span class="stars-job">Científico de cabecera</span>
+            <span class="stars-quote">"Es una lista súper exhaustiva (vas a flipar)"</span>
+          </div>
+        </div>
+
+        <div class="stars-row star-5">
+          <div class="stars-img-container ">
+            <div class="stars-img">
+              <img src="./public/star5.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Jaime Rodríguez</span>
+            <span class="stars-job">Publicista gastronómico y escritor</span>
+            <span class="stars-quote">"¿Hacemos algo juntos? Vas a ver qué risas"</span>
+          </div>
+        </div>
+
+        <div class="stars-row stars-row--inverse">
+          <div class="stars-img-container">
+            <div class="stars-img">
+              <img src="./public/star1.jpg" alt="">
+            </div>
+          </div>
+          <div class="stars-text-container">
+            <span class="stars-name">Lorena Torres</span>
+            <span class="stars-job">Especialista en alto rendimiento</span>
+            <span class="stars-quote">"Mira, esto es lo que hemos puesto en la contra del libro:"</span>
+          </div>
+        </div>
+
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
